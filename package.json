@@ -1,0 +1,18 @@
+{
+  "name": "goldasht-chap",
+  "version": "1.0.0",
+  "description": "A Web site for Goldasht Chap",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "author": "Athar Panahi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12",
+    "sass": "^1.38.0"
+  }
+}
